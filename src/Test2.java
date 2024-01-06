@@ -5,8 +5,11 @@ public class Test2 {
 		if(a.equals("hii")) {
 			System.out.println("right");
 		}
-		else {
+		else if(a.equals("jii")){
 			System.out.println("wrong");
+		}
+		else {
+			System.out.println("vomm");
 		}
 	}
 }
